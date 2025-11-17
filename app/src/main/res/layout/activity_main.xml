@@ -23,11 +23,11 @@
         android:layout_height="wrap_content"
         android:text="@string/button_increment" />
 
-
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:name="com.example.lab_week_10.FirstFragment"/>
 
 </LinearLayout>
